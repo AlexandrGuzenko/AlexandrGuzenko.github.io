@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	font-size:50px;
+	font-family: 'Pacifico', cursive;
+	margin: 0;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size:45px;
+}
+
+p{
+	font-size:28px;
+	font-family: 'Pacifico', cursive;
+}
+
+
+.background{
+	height:800px;
+	min-height: 100vh;
+	width:100%;
+	background-image: url("../img/background-site1.jpg") ;
+	background-attachment: fixed;
+}
+
+.container{
+	width:680px;
+	min-height: 100vh;
+	height:500px;
+	margin: 0 auto;
+}
+
+.header{
+	padding:20px 10px 10px 0px;
+}
+
+.main{
+
+	border-radius: 5px;
+	margin:0;
+	padding:0px 35px 30px 35px;
+}
+
+.main::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+.button{
+	width:180px;
+    margin:auto;
+    display:block;
+    height:38px;
+    border:none;
+    border-radius:7px;
+    color:#fff;
+    background-color:#333;
+    outline:none;
+    font-size:0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top:30px;
+    opacity:1;
+    cursor:pointer;
+    text-align: center;
+}
+
+.button:hover {
+    opacity:0.9;
+}
+
+.button:active {
+    opacity:0.5;
+}
+
+article > p{
+	text-align: right;
+	font-size: 22px;
+	opacity:0.8;
+}
+
+article{
+	display:none;
+}
+
+
+/*
+article:nth-child(2){
+	display:block;
+}
