@@ -1,0 +1,28 @@
+body{
+	display:none;
+	margin:0;
+	text-align: center;
+	font-size: 24px;
+	background-image: url("../img/1.jpg");
+}
+
+#degrees{
+	display:inline-block;
+}
+
+#icon{
+	display: inline-block;
+}
+
+.more-info{
+	display:none;
+}
+
+.btn{
+	color:white;
+	text-decoration: none;
+}
+
+.btn:hover{
+	color:black;
+}
