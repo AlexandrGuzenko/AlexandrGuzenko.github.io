@@ -1,0 +1,31 @@
+body{
+	background: url("../img/1.jpg") no-repeat ; 
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+}
+
+.pad-top{
+	padding-top:2%;
+}
+
+#article>a{
+	text-decoration: none;
+	color:black;
+}
+
+#article:first-child{
+	margin-top:3%;
+}
+
+#article:hover{
+	border-left:solid #FCE154 4px;
+	border-radius: 2px;
+}
