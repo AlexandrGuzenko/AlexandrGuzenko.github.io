@@ -1,0 +1,104 @@
+body {
+	background-color: grey;
+}
+
+*{
+	font-family: 'Orbitron', sans-serif;
+}
+
+.calculator-name{
+	font-size: 20px;
+}
+
+.calculator-desk{
+	text-align: center;
+	margin:0 auto;
+	margin-top: 3%;
+	padding-top:4px;
+	background-color: white;
+	height:410px;
+	width: 300px;
+	border-radius:6px;
+	border: 2px solid #908b85;
+ 	border-radius: 20px;
+ 	box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+.screen{
+	width:85%;
+	background-color: grey;
+	height:65px;
+	margin: 0 auto;
+	border: 2px solid #b4b39d;
+	border-radius: 6px;
+  	background-color: #c3c2ab;
+}
+
+#current{
+	text-align: right;
+	margin-right: 10px;
+    font-size: 35px;
+}
+
+#history {
+	text-align: right;
+ 	position: relative;
+  	height: 10px;
+ 	bottom: 0px;
+  	margin-right: 14px;
+  	color: #8b8b7b;
+  	font-size: 12px;
+}
+
+.buttons {
+	width:280px;
+	margin: 16px 0 0 15px;
+	text-align: left;
+	position: relative;
+}
+
+button{
+	font-size: 20px;
+	color:white;
+	height: 40px;
+ 	width: 52px;
+	margin: 0 4px 10px 8px;
+	background-color:#3a3a3a;
+	border:none;
+	border-radius: 8px;
+	box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+
+.red{
+	background-color: #a72d45;
+ 	box-shadow: 0px 3px 0px 0px #671c2a;
+}
+
+#zeroButton{
+	width:120px;
+}
+
+#equalButton{
+	position: absolute;
+  	right: 12px;
+  	top:150px;
+  	height: 90px;
+}
+
+.invisible{
+	visibility: hidden;
+
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
