@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css" class="css">
+</head>
+<body>
+
+	<h2>My Pomodoro Clock</h2>
+	<div class="set-timers">
+		<div class="set-rest">
+			<p>Rest time</p>
+			<div class="set-rest-container">
+				<button class="minus" id="min-rest">-</button>
+				<span id="rest"></span>
+				<button class="plus" id="max-rest">+</button>
+			</div>
+		</div>
+		<div class="set-work">
+			<p>Work time</p>
+			<div class="set-work-container">
+				<button class="minus" id="min-work">-</button>
+				<span id="work"></span>
+				<button class="plus" id="max-work">+</button>
+			</div>
+		</div>
+		<div class="timer" id="active">
+			<div class="timer-container">
+				<p id="timer-name">Session</p>
+				<p id="timer"></p>
+				<div id="fill"></div>
+			</div>
+			
+		</div>
+	</div>
+
+	
+	<script src="js/scripts.js"></script>
+</body>
+</html>
