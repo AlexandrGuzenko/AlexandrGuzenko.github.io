@@ -231,7 +231,12 @@ function getButtons(){
 					win.style.display = 'block';
 					win.style.opacity = opacityWin;
 				}
-				firTurn();
+				if(!chooseX){
+					firTurn();
+				}
+				else{
+					secTurn();
+				}
 
 			}
 			else if (move%2 == 1 && event.target.innerHTML == ""){
@@ -257,7 +262,13 @@ function getButtons(){
 					win.style.display = 'block';
 					win.style.opacity = opacityWin;
 				}
-				secTurn();
+				if(chooseX){
+					firTurn();
+				}
+				else{
+					secTurn();
+				}
+				
 			}
 			for (let j = 0; j<9;j++){
 				if(allblock[j].innerHTML == ""){
@@ -348,6 +359,7 @@ document.getElementById('x-player').onclick = function() {
 };
 document.getElementById('o-player').onclick = function() {
 	move = 1;
+	chooseX = false;
 	if (isWorking == false){
 		let start = Date.now();
 		let timer = setInterval(function(){
