@@ -1,0 +1,10 @@
+.main-canvas{
+	width:600px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top:5%;
+}
+
+canvas{
+	cursor: none;
+}
