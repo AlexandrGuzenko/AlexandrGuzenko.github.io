@@ -28,6 +28,12 @@ canvas.addEventListener("mousemove", function(event){
 	console.log(5);
 })
 
+canvas.addEventListener("touchmove", function(event){
+	ship.x = event.offsetX -50;
+	ship.y = event.offsetY -25;
+	console.log(5);
+})
+
 function gameLoop(){
 	update();
 	render();
